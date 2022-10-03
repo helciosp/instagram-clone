@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+body {
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fafafa;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.door-instagram {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+.group {
+    background-color: #fff;
+    margin: 8px 0 0 30px;
+    border: #dbdbdb solid 1px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+}
+.group.large {
+    flex: auto;
+}
+.group.small {
+    height: 60px;
+}
+.group.light {
+    background-color: #fafafa;
+    border: none;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+.row h1 {
+    font-size: xx-large;
+}
+.row .login-alternativo a {
+    font-size: 14px;
+    color: #003972;
+}
+.row .recuperar-senha a {
+    font-size: smaller;
+    color: #969696;
+}
+.row .cadastro a {
+    color: #2681db;
+}
+
+.input {
+    margin: 5px;
+    border-radius: 2px;
+    color: #fafafa;
+    height: 30px;
+}
+.input.text {
+    background-color: #fafafa;
+    border: solid 1px #dbdbdb;
+}
+.input.submit {
+    background-color: #b2dffc;
+    border: solid 1px #a8dcff;
+}
+
+.download {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+.download .app {
+    width: 50%;
+    height: 100%;
+}
+.app .imagem {
+    width: 100%;
+}
